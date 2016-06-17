@@ -60,3 +60,12 @@ TODO
 # Debian 7.1 / 7.2
 
 TODO
+
+# Debian Jessie (8.0)
+
+sudo apt-get update
+sudo apt-get install gcc-4.9-multilib g++-4.9-multilib
+
+On every compile:
+* cd path/to/source/
+* make
